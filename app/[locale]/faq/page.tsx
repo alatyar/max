@@ -6,10 +6,11 @@ import { OpenGraphTags } from '@/components/seo/OpenGraphTags';
 import { FAQ_ITEMS } from '@/lib/constants';
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo.faq' });
   
   return {
@@ -19,7 +20,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   };
 }
 
-export default async function FAQPage({ params: { locale } }: Props) {
+export default async function FAQPage({ params }: Props) {
+  const { locale } = await params;
   const t = await getTranslations('faq');
   const seoT = await getTranslations('seo.faq');
 

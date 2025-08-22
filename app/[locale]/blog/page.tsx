@@ -5,10 +5,11 @@ import { StructuredData } from '@/components/seo/StructuredData';
 import { OpenGraphTags } from '@/components/seo/OpenGraphTags';
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo.blog' });
   
   return {
@@ -18,7 +19,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   };
 }
 
-export default async function BlogPage({ params: { locale } }: Props) {
+export default async function BlogPage({ params }: Props) {
+  const { locale } = await params;
   const t = await getTranslations('blog');
   const seoT = await getTranslations('seo.blog');
 
