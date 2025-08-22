@@ -1,0 +1,226 @@
+export const SITE_CONFIG = {
+  name: 'MAX TV PRO',
+  domain: 'https://maxprotv.com',
+  description: 'Premium IPTV service offering 4K and HD streaming with instant activation and 24/7 support',
+  whatsapp: {
+    phone: '13322662387',
+    messages: {
+      en: 'Hello MAX TV PRO team, I visited maxprotv.com and need help.',
+      ar: 'مرحباً فريق MAX TV PRO، زرتُ موقع maxprotv.com وأريد المساعدة.',
+    },
+  },
+  social: {
+    twitter: '@maxtvpro',
+    facebook: 'maxtvpro',
+    instagram: 'maxtvpro',
+  },
+} as const;
+
+export const PLANS = [
+  {
+    id: 'monthly',
+    name: 'Monthly Plan',
+    duration: '1 Month',
+    originalPrice: 9,
+    price: 6,
+    discount: 33,
+    features: [
+      '4K & Full HD Quality',
+      'Multi-Device Support',
+      '24/7 Customer Support',
+      'Instant Activation',
+      'Service Quality Guarantee',
+    ],
+  },
+  {
+    id: 'quarterly',
+    name: '3 Months Plan',
+    duration: '3 Months',
+    originalPrice: 14,
+    price: 11,
+    discount: 21,
+    popular: true,
+    features: [
+      '4K & Full HD Quality',
+      'Multi-Device Support',
+      '24/7 Customer Support',
+      'Instant Activation',
+      'Service Quality Guarantee',
+      'Priority Support',
+    ],
+  },
+  {
+    id: 'biannual',
+    name: '6 Months Plan',
+    duration: '6 Months',
+    originalPrice: 26,
+    price: 19,
+    discount: 27,
+    features: [
+      '4K & Full HD Quality',
+      'Multi-Device Support',
+      '24/7 Customer Support',
+      'Instant Activation',
+      'Service Quality Guarantee',
+      'Priority Support',
+      'Extended Warranty',
+    ],
+  },
+  {
+    id: 'yearly',
+    name: 'Yearly Plan',
+    duration: '12 Months',
+    originalPrice: 54,
+    price: 29,
+    discount: 46,
+    bestValue: true,
+    features: [
+      '4K & Full HD Quality',
+      'Multi-Device Support',
+      '24/7 Customer Support',
+      'Instant Activation',
+      'Service Quality Guarantee',
+      'Priority Support',
+      'Extended Warranty',
+      'Free Setup Assistance',
+    ],
+  },
+] as const;
+
+export const DEVICES = [
+  {
+    id: 'android-phone',
+    name: 'Android Phone',
+    category: 'mobile' as const,
+    icon: 'smartphone',
+    supported: true,
+    installMethod: 'Direct APK or Downloader App',
+    requirements: ['Android 5.0+', '2GB RAM', 'Stable Internet'],
+  },
+  {
+    id: 'iphone',
+    name: 'iPhone/iPad',
+    category: 'mobile' as const,
+    icon: 'smartphone',
+    supported: true,
+    installMethod: 'S Player Pro from App Store',
+    requirements: ['iOS 12.0+', 'App Store Access'],
+  },
+  {
+    id: 'android-tv',
+    name: 'Android TV',
+    category: 'tv' as const,
+    icon: 'tv',
+    supported: true,
+    installMethod: 'IPTV Smarters Pro',
+    requirements: ['Android TV 7.0+', 'Google Play Store'],
+  },
+  {
+    id: 'smart-tv',
+    name: 'Smart TV',
+    category: 'tv' as const,
+    icon: 'tv',
+    supported: true,
+    installMethod: 'Built-in IPTV Apps',
+    requirements: ['Samsung Tizen 4.0+', 'LG webOS 4.0+'],
+  },
+  {
+    id: 'windows-pc',
+    name: 'Windows PC',
+    category: 'computer' as const,
+    icon: 'monitor',
+    supported: true,
+    installMethod: 'IPTV Smarters Desktop',
+    requirements: ['Windows 10+', '4GB RAM', 'DirectX 11'],
+  },
+  {
+    id: 'mac',
+    name: 'Mac',
+    category: 'computer' as const,
+    icon: 'monitor',
+    supported: true,
+    installMethod: 'IPTV Smarters or VLC',
+    requirements: ['macOS 10.15+', '4GB RAM'],
+  },
+] as const;
+
+export const FAQ_ITEMS = [
+  {
+    id: 'internet-speed',
+    question: 'What internet speed is recommended for 4K streaming?',
+    answer: 'We recommend a stable 25 Mbps or higher for optimal 4K streaming experience. For HD content, 10 Mbps is sufficient.',
+    category: 'technical',
+  },
+  {
+    id: 'activation-time',
+    question: 'How long does activation take after payment?',
+    answer: 'Activation is instant! You will receive your login credentials within 1-2 minutes after successful payment.',
+    category: 'billing',
+  },
+  {
+    id: 'device-limit',
+    question: 'How many devices can I use simultaneously?',
+    answer: 'All plans include multi-device support. You can use up to 3 devices simultaneously with any subscription.',
+    category: 'technical',
+  },
+  {
+    id: 'buffering-issues',
+    question: 'What should I do if I experience buffering?',
+    answer: 'Check your internet connection, try a different server location in the app, or contact our 24/7 support team for assistance.',
+    category: 'troubleshooting',
+  },
+  {
+    id: 'legal-content',
+    question: 'Is the service legal and licensed?',
+    answer: 'Yes, all content is streamed from authorized sources through licensed providers. We do not host or distribute copyrighted content.',
+    category: 'legal',
+  },
+  {
+    id: 'payment-methods',
+    question: 'What payment methods do you accept?',
+    answer: 'We accept all major credit cards, PayPal, and cryptocurrency payments for your convenience.',
+    category: 'billing',
+  },
+  {
+    id: 'refund-policy',
+    question: 'What is your refund policy?',
+    answer: 'We do not offer refunds or exchanges. All sales are final. We are committed to providing high-quality service and support.',
+    category: 'billing',
+  },
+  {
+    id: 'technical-support',
+    question: 'How do I contact technical support?',
+    answer: 'You can reach our 24/7 support team via WhatsApp, email, or through our contact form. We typically respond within 30 minutes.',
+    category: 'support',
+  },
+] as const;
+
+export const NAVIGATION = {
+  main: [
+    { label: 'Home', href: '/' },
+    { label: 'Plans', href: '/plans' },
+    { label: 'Install', href: '/install' },
+    { label: 'Devices', href: '/devices' },
+    { label: 'FAQ', href: '/faq' },
+    { label: 'Blog', href: '/blog' },
+    { label: 'Contact', href: '/contact' },
+  ],
+  footer: {
+    service: [
+      { label: 'Plans & Pricing', href: '/plans' },
+      { label: 'Installation Guide', href: '/install' },
+      { label: 'Supported Devices', href: '/devices' },
+      { label: 'FAQ', href: '/faq' },
+    ],
+    company: [
+      { label: 'About Us', href: '/about' },
+      { label: 'Blog', href: '/blog' },
+      { label: 'Contact', href: '/contact' },
+    ],
+    legal: [
+      { label: 'Terms of Service', href: '/legal#terms' },
+      { label: 'Privacy Policy', href: '/legal#privacy' },
+      { label: 'Refund Policy', href: '/legal#refund' },
+    ],
+  },
+} as const;

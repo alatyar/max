@@ -1,0 +1,646 @@
+{
+  "navigation": {
+    "home": "Home",
+    "plans": "Plans",
+    "install": "Install",
+    "devices": "Devices",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "contact": "Contact",
+    "about": "About",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Premium IPTV Subscription & Live TV Streaming",
+    "subtitle": "Get MAX TV Pro with 4K quality streaming, instant activation, and multi-device support. Download Max TV Pro APK with activation codes. Best IPTV subscription deals worldwide.",
+    "cta": {
+      "primary": "View Plans",
+      "secondary": "Install Guide"
+    },
+    "proof": {
+      "uptime": "99.9% Uptime",
+      "customers": "50K+ Happy Customers",
+      "guarantee": "7-Day Money Back"
+    },
+    "features": {
+      "quality": {
+        "title": "4K Quality",
+        "description": "Crystal clear 4K and Full HD streaming"
+      },
+      "instant": {
+        "title": "Instant Setup",
+        "description": "Get started in under 2 minutes"
+      },
+      "reliable": {
+        "title": "99.9% Uptime",
+        "description": "Reliable streaming you can count on"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Expert help whenever you need it"
+      }
+    }
+  },
+  "pricing": {
+    "title": "MAX TV PRO Subscription Plans - Best IPTV Deals",
+    "subtitle": "Choose your MAX TV Pro subscription with instant activation codes. All plans include 4K streaming, multi-device support, and 24/7 customer service. Download Max TV Pro APK included.",
+    "popular": "Most Popular",
+    "bestValue": "Best Value",
+    "guarantee": "Service Quality Guarantee",
+    "selectPlan": "Subscribe Now",
+    "viewAllPlans": "View All Plans",
+    "plans": {
+      "monthly": {
+        "name": "Monthly Plan"
+      },
+      "quarterly": {
+        "name": "3 Months Plan"
+      },
+      "biannual": {
+        "name": "6 Months Plan"
+      },
+      "yearly": {
+        "name": "Yearly Plan"
+      }
+    },
+    "features": {
+      "4kfullhdquality": "4K & Full HD Quality",
+      "multidevicesupport": "Multi-Device Support",
+      "247customersupport": "24/7 Customer Support",
+      "24/7customersupport": "24/7 Customer Support",
+      "instantactivation": "Instant Activation",
+      "servicequalityguarantee": "Service Quality Guarantee",
+      "prioritysupport": "Priority Support",
+      "extendedwarranty": "Extended Warranty",
+      "freesetupassistance": "Free Setup Assistance"
+    }
+  },
+  "features": {
+    "title": "Why Choose MAX TV PRO?",
+    "subtitle": "Experience the best IPTV service with premium features and unmatched reliability",
+    "streaming": {
+      "title": "Premium Streaming",
+      "description": "Enjoy 4K and Full HD content with buffer-free streaming"
+    },
+    "devices": {
+      "title": "Multi-Device",
+      "description": "Works on phones, tablets, TVs, and computers"
+    },
+    "quality": {
+      "title": "High Quality",
+      "description": "Crystal clear picture and sound quality"
+    },
+    "activation": {
+      "title": "Instant Activation",
+      "description": "Get started within 1-2 minutes after payment"
+    },
+    "security": {
+      "title": "Secure & Legal",
+      "description": "Licensed content from authorized providers"
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Expert technical support whenever you need it"
+    },
+    "compatibility": {
+      "title": "Device Compatibility",
+      "subtitle": "Works on all your favorite devices",
+      "devices": {
+        "mobile": "Mobile & Tablet",
+        "tv": "Smart TV & Boxes",
+        "computer": "PC & Mac",
+        "tablet": "iPad & Tablets"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Join thousands of satisfied customers worldwide",
+    "items": {
+      "testimonial1": {
+        "content": "Amazing service! The 4K quality is incredible and setup was so easy. Customer support helped me within minutes.",
+        "name": "John Smith"
+      },
+      "testimonial2": {
+        "content": "Best IPTV service I've used. Works perfectly on all my devices and the Arabic channels selection is excellent.",
+        "name": "Ahmed Hassan"
+      },
+      "testimonial3": {
+        "content": "Great value for money. The yearly plan saved me a lot and the service has been rock solid for months.",
+        "name": "Sarah Johnson"
+      },
+      "testimonial4": {
+        "content": "Outstanding streaming quality! Never had any buffering issues and the channel variety is impressive. Highly recommended!",
+        "name": "David Wilson"
+      },
+      "testimonial5": {
+        "content": "Perfect for my family. Kids love the cartoon channels and I enjoy sports in crystal clear HD. Worth every penny!",
+        "name": "Michael Weber"
+      },
+      "testimonial6": {
+        "content": "Excellent Arabic content and international channels. The app works smoothly on all my devices. Very satisfied!",
+        "name": "Omar Al-Rashid"
+      }
+    },
+    "stats": {
+      "uptime": "Service Uptime",
+      "customers": "Happy Customers",
+      "support": "Expert Support"
+    }
+  },
+  "footer": {
+    "description": "Premium IPTV service offering 4K and HD streaming with instant activation and 24/7 support",
+    "service": "Service",
+    "company": "Company",
+    "legal": "Legal",
+    "rights": "All rights reserved.",
+    "disclaimer": "Services provided via licensed providers. We do not host or distribute copyrighted content. All content is streamed from authorized sources.",
+    "links": {
+      "plans": "Plans & Pricing",
+      "plans&pricing": "Plans & Pricing",
+      "installationguide": "Installation Guide",
+      "supporteddevices": "Supported Devices",
+      "faq": "FAQ",
+      "aboutus": "About Us",
+      "blog": "Blog",
+      "contact": "Contact",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "refund": "Refund Policy"
+    }
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "plans": "Plans",
+    "install": "Install",
+    "devices": "Devices",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "legal": "Legal",
+    "complete-iptv-guide-2024": "Complete IPTV Guide 2024",
+    "best-iptv-providers-2024": "Best IPTV Providers 2024",
+    "iptv-vs-cable-comparison": "IPTV vs Cable Comparison",
+    "max-tv-pro-android-setup": "Android Setup Guide",
+    "firestick-installation-guide": "Firestick Installation",
+    "smart-tv-installation-guide": "Smart TV Setup",
+    "iptv-buffering-solutions": "Buffering Solutions"
+  },
+  "blog": {
+    "title": "IPTV Guides & Tutorials",
+    "subtitle": "Expert guides, setup tutorials, and troubleshooting tips for MAX TV PRO",
+    "search": "Search articles...",
+    "featured": "Featured",
+    "minRead": "min read",
+    "readMore": "Read More",
+    "noResults": "No articles found matching your search.",
+    "backToBlog": "Back to Blog",
+    "publishedBy": "Published by",
+    "needHelp": "Need Help?",
+    "getStarted": "Get Started",
+    "tags": {
+      "all": "All",
+      "IPTV": "IPTV",
+      "Streaming": "Streaming",
+      "Guide": "Guide",
+      "2024": "2024",
+      "IPTV Providers": "IPTV Providers",
+      "Comparison": "Comparison",
+      "Reviews": "Reviews",
+      "IPTV vs Cable": "IPTV vs Cable",
+      "Cost Comparison": "Cost Comparison",
+      "Cord Cutting": "Cord Cutting",
+      "Android Setup": "Android Setup",
+      "Installation": "Installation",
+      "Tutorial": "Tutorial",
+      "Firestick Setup": "Firestick Setup",
+      "Amazon Fire TV": "Amazon Fire TV",
+      "Sideloading": "Sideloading",
+      "Smart TV Setup": "Smart TV Setup",
+      "Samsung TV": "Samsung TV",
+      "LG TV": "LG TV",
+      "Buffering Fix": "Buffering Fix",
+      "Troubleshooting": "Troubleshooting",
+      "Performance": "Performance"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest IPTV guides and MAX TV PRO updates delivered to your inbox.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our support team. We're here to help you 24/7.",
+    "form": {
+      "title": "Contact Form",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "subject": "Subject",
+      "subjectPlaceholder": "Choose your message subject",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again.",
+      "privacy": "We respect your privacy and will not share your information with third parties."
+    },
+    "methods": {
+      "whatsapp": {
+        "title": "WhatsApp Support",
+        "description": "Get instant help via WhatsApp. Our team responds within minutes.",
+        "button": "Chat on WhatsApp"
+      },
+      "email": {
+        "title": "Email Support",
+        "description": "Send us an email and we'll get back to you within 24 hours.",
+        "button": "Send Email"
+      },
+      "hours": {
+        "title": "Support Hours",
+        "description": "We're available 24/7 to assist you with any questions or issues.",
+        "support": "Technical Support",
+        "response": "Response Time"
+      }
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "MAX TV PRO - Premium IPTV Subscription & Live TV Streaming",
+      "description": "Get MAX TV Pro with 4K quality, 24/7 support. Download Max TV Pro APK, activation codes & username/password. Best IPTV subscription deals worldwide.",
+      "keywords": "MAX TV Pro, Max TV Pro APK, MAX TV PRO subscription, Max TV Pro download, IPTV streaming, Max TV Pro activation code, Max TV Pro Android"
+    },
+    "plans": {
+      "title": "MAX TV Pro Subscription Plans - Annual & Monthly IPTV Deals",
+      "description": "Choose your MAX TV Pro subscription: monthly $6, yearly $29. Premium IPTV with activation codes, 4K streaming & instant setup. Best value plans.",
+      "keywords": "MAX TV Pro subscription, Max TV Pro plans, IPTV subscription, Max TV Pro username and password, Max TV Pro sign in"
+    },
+    "install": {
+      "title": "MAX TV Pro APK Download - v6.0 v802 804 Free Download",
+      "description": "Download MAX TV Pro APK latest version 6.0 v802 804. Free Max TV Pro app for Android with installation guide & activation support.",
+      "keywords": "MAX TV PRO 6.0 v802 804 APK, Max TV Pro download, Max TV Pro Android, Max TV Pro app, Max TV APK"
+    },
+    "devices": {
+      "title": "MAX TV Pro Supported Devices - Android, iOS, Smart TV, Firestick",
+      "description": "Check MAX TV Pro compatibility with your devices. Supports Android, iOS, Smart TV, Firestick, PC/Mac with 4K streaming quality.",
+      "keywords": "MAX TV Pro devices, Max TV Pro Android, Max TV Pro iOS, Max TV Pro Smart TV, Max TV Pro Firestick"
+    },
+    "about": {
+      "title": "About MAX TV PRO - Premium IPTV Service Provider",
+      "description": "Learn about MAX TV PRO, your trusted IPTV service provider offering 4K streaming, 24/7 support, and premium channels worldwide.",
+      "keywords": "MAX TV PRO about, IPTV service provider, premium streaming service, 4K IPTV"
+    },
+    "contact": {
+      "title": "Contact MAX TV PRO - 24/7 Customer Support & WhatsApp",
+      "description": "Contact MAX TV PRO support team via WhatsApp +13322662387. Get instant help with activation, setup, and technical issues 24/7.",
+      "keywords": "MAX TV Pro contact, Max TV Pro support, Max TV Pro WhatsApp, IPTV customer service"
+    },
+    "faq": {
+      "title": "MAX TV PRO FAQ - Common Questions & Answers",
+      "description": "Find answers to frequently asked questions about MAX TV PRO IPTV service, activation, setup, pricing, and troubleshooting.",
+      "keywords": "MAX TV Pro FAQ, Max TV Pro questions, IPTV help, Max TV Pro troubleshooting"
+    },
+    "blog": {
+      "title": "MAX TV Pro Guides - Setup, Activation & Troubleshooting",
+      "description": "Expert guides for MAX TV Pro setup, activation codes, sign in help & troubleshooting. Latest IPTV tips and streaming solutions.",
+      "keywords": "Max TV Pro activation code, Max TV Pro sign in, MAX TV Pro guide, Max TV live"
+    }
+  },
+  "about": {
+    "title": "About MAX TV PRO",
+    "subtitle": "Your trusted partner for premium IPTV streaming services",
+    "story": {
+      "title": "Our Story",
+      "description": "MAX TV PRO was founded with a simple mission: to provide the best IPTV streaming experience with unmatched quality and reliability."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To deliver premium 4K and HD streaming services that work seamlessly across all devices with 24/7 support."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality First",
+        "description": "We never compromise on streaming quality or service reliability."
+      },
+      "support": {
+        "title": "Customer Support",
+        "description": "Our dedicated team is available 24/7 to help you."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously improve our technology and services."
+      }
+    },
+    "stats": {
+      "customers": "Happy Customers",
+      "uptime": "Service Uptime",
+      "support": "Average Response Time",
+      "countries": "Countries Served"
+    }
+  },
+  "legal": {
+    "title": "Legal Information",
+    "subtitle": "Terms, privacy policy, and legal information for MAX TV PRO services",
+    "terms": {
+      "title": "Terms of Service",
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using MAX TV PRO services, you accept and agree to be bound by the terms and provision of this agreement."
+      },
+      "service": {
+        "title": "Service Description",
+        "content": "MAX TV PRO provides IPTV streaming services with 4K and HD quality content through licensed providers."
+      },
+      "usage": {
+        "title": "Acceptable Use",
+        "item1": "Use the service for personal, non-commercial purposes only",
+        "item2": "Do not share your account credentials with others",
+        "item3": "Do not attempt to circumvent or disable security features",
+        "item4": "Comply with all applicable laws and regulations"
+      },
+      "payment": {
+        "title": "Payment Terms",
+        "content": "All payments are processed securely. Subscriptions are billed in advance for the selected period. We accept major credit cards and secure payment methods."
+      },
+      "termination": {
+        "title": "Termination",
+        "content": "We reserve the right to terminate or suspend your account at any time for violation of these terms. You may cancel your subscription at any time through your account settings."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We collect information you provide directly to us, such as when you create an account or contact us for support.",
+        "item1": "Account information (email, username, payment details)",
+        "item2": "Usage data (viewing preferences, device information)",
+        "item3": "Communication data (support tickets, feedback)"
+      },
+      "usage": {
+        "title": "How We Use Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services, process payments, and provide customer support."
+      },
+      "sharing": {
+        "title": "Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as required by law."
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "You have the right to access, update, or delete your personal information. Contact us at privacy@maxprotv.com for any privacy-related requests."
+      }
+    },
+    "refund": {
+      "title": "Refund Policy",
+      "policy": {
+        "title": "No Refunds After Subscription",
+        "content": "All sales are final. No refunds or exchanges are provided after subscription activation. Please ensure you understand our service before purchasing."
+      },
+      "conditions": {
+        "title": "Important Notice",
+        "item1": "No refunds are provided after subscription activation",
+        "item2": "No exchanges or credits are available",
+        "item3": "All payments are final and non-refundable"
+      },
+      "support": {
+        "title": "Customer Support",
+        "content": "For technical issues or service questions, contact our support team via WhatsApp. We're here to help with any service-related concerns."
+      },
+      "contact": {
+        "title": "Questions?",
+        "content": "If you have questions about our service before purchasing, please contact us to ensure MAX TV PRO meets your needs."
+      }
+    },
+    "contact": {
+      "title": "Legal Contact",
+      "description": "For legal inquiries, privacy concerns, or terms clarification, please contact us using the methods below.",
+      "whatsapp": "Contact Legal Team",
+      "whatsappMessage": "Hello MAX TV PRO Legal Team, I have a legal inquiry regarding your services."
+    }
+  },
+  "devices": {
+    "title": "Supported Devices",
+    "subtitle": "MAX TV PRO works seamlessly across all your favorite devices with crystal-clear 4K streaming",
+    "installMethod": "Installation Method",
+    "viewGuide": "View Guide",
+    "requirements": {
+      "title": "Requirements",
+      "recommended": {
+        "title": "Recommended Requirements",
+        "internet": "25+ Mbps stable internet connection",
+        "ram": "4GB RAM or higher",
+        "storage": "2GB available storage space"
+      },
+      "minimum": {
+        "title": "Minimum Requirements",
+        "internet": "10+ Mbps internet connection",
+        "ram": "2GB RAM",
+        "storage": "1GB available storage space"
+      }
+    },
+    "compatibility": {
+      "title": "Device Compatibility Matrix",
+      "device": "Device",
+      "supported": "Supported",
+      "quality": "Max Quality",
+      "multiDevice": "Multi-Device"
+    },
+    "features": {
+      "categories": {
+        "streaming": "Streaming Quality",
+        "devices": "Device Support",
+        "features": "Premium Features"
+      },
+      "list": {
+        "4k": "4K Support",
+        "hd": "HD Support",
+        "recording": "Recording",
+        "multistream": "Multi-Stream"
+      }
+    }
+  },
+  "install": {
+    "title": "Installation Guide",
+    "subtitle": "Get started with MAX TV PRO in minutes with our step-by-step guides",
+    "selectDevice": "Select your device to get started",
+    "screenshots": {
+      "mobile": "Mobile App Interface",
+      "download": "Android APK Download"
+    },
+    "devices": {
+      "android": "Android",
+      "ios": "iOS",
+      "tv": "Smart TV",
+      "pc": "PC/Mac"
+    },
+    "steps": {
+      "android": {
+        "direct": {
+          "title": "Direct APK Installation",
+          "description": "Download and install our Android app directly",
+          "step1": "⚠️ Before installation: Enable 'Unknown Sources' in Settings > Security",
+          "step2": "Choose one of our official APK downloads:",
+          "step3": "• Max Tv+: https://www.maxtv.me/apks/Max-Tv+.apk",
+          "step4": "• MAX4K: https://www.maxtv.me/apks/MAX4K.apk",
+          "step5": "• MAXTVPRO v802-804: https://www.maxtv.me/apks/MAXTVPRO-6.0-v802-804.apk",
+          "step6": "Install the downloaded APK file and enter your subscription details"
+        },
+        "downloader": {
+          "title": "Downloader App Method",
+          "description": "Use Downloader app for easy installation",
+          "step1": "Install 'Downloader' app from Google Play Store",
+          "step2": "Open Downloader and enter one of these codes:",
+          "step3": "• Max Active: aftv.news/2606779",
+          "step4": "• Max 4K: aftv.news/183324",
+          "step5": "• Max XCIPTV: aftv.news/680115",
+          "step6": "• Max Tv+: aftv.news/3603031",
+          "step7": "Download and install automatically, then enter your login credentials"
+        }
+      },
+      "ios": {
+        "splayerpro": {
+          "title": "SPlayer Pro Installation",
+          "description": "Best IPTV player for iOS/iPad/Mac devices",
+          "step1": "Download SPlayer Pro from: https://apps.apple.com/app/id1616174252",
+          "step2": "Open the app and select 'Custom Server'",
+          "step3": "Enter your subscription details (Name, Username, Password) provided by support",
+          "step4": "Note: SPlayer Pro doesn't provide channels - only acts as a player. All channels come from MAX TV PRO"
+        }
+      },
+      "tv": {
+        "smarters": {
+          "title": "Smart TV & TV Boxes",
+          "description": "Compatible apps for Smart TVs and Android TV boxes",
+          "step1": "Supports: IPTV Smarters Pro, IBO Player, IPTV Pro Stream Player, IPTV Blink Player",
+          "step2": "Install your preferred app from TV's app store",
+          "step3": "Open the app and select 'Custom Playlist' or 'M3U URL'",
+          "step4": "Enter your subscription details provided by MAX TV PRO support"
+        },
+        "alternative": {
+          "title": "Server Setup (Advanced Users)",
+          "description": "Custom server configuration",
+          "step1": "Open S Player or MAX TV PRO app",
+          "step2": "Select 'Custom Server' option",
+          "step3": "Enter your subscription credentials (Name, Username, Password)"
+        }
+      },
+      "pc": {
+        "smarters": {
+          "title": "PC/Mac Installation (Optional)",
+          "description": "Desktop application for Windows and Mac",
+          "step1": "Download from: https://www.iptvsmarters.com/download/?download=mac",
+          "step2": "Install the application on your computer",
+          "step3": "Launch and select 'Custom Server'",
+          "step4": "Enter your MAX TV PRO subscription details"
+        },
+        "vlc": {
+          "title": "VLC Media Player",
+          "description": "Free and reliable media player",
+          "step1": "Download and install VLC Media Player",
+          "step2": "Open VLC and go to Media > Open Network Stream",
+          "step3": "Enter your M3U playlist URL from MAX TV PRO"
+        }
+      }
+    },
+    "additional": {
+      "title": "Need Help?",
+      "delivery": {
+        "title": "Instant Delivery",
+        "description": "Receive your login details within 1-2 minutes after payment"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Our technical team is always ready to help you"
+      },
+      "requirements": {
+        "title": "Requirements",
+        "description": "Stable internet connection (5+ Mbps recommended)"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about MAX TV PRO services",
+    "search": "Search FAQ...",
+    "noResults": "No results found for your search.",
+    "categories": {
+      "all": "All",
+      "technical": "Technical",
+      "billing": "Billing",
+      "troubleshooting": "Troubleshooting",
+      "legal": "Legal",
+      "support": "Support"
+    },
+    "stillNeedHelp": {
+      "title": "Still Need Help?",
+      "description": "Can't find what you're looking for? Our support team is here to help you 24/7."
+    },
+    "contactWhatsApp": "Contact WhatsApp",
+    "contactEmail": "Send Email",
+    "whatsappMessage": "Hello MAX TV PRO team, I need help with my IPTV service.",
+    "items": {
+      "internet-speed": {
+        "question": "What internet speed is recommended for 4K streaming?",
+        "answer": "We recommend a stable 25 Mbps or higher for optimal 4K streaming experience. For HD content, 10 Mbps is sufficient."
+      },
+      "activation-time": {
+        "question": "How long does activation take after payment?",
+        "answer": "Activation is instant! You will receive your login credentials within 1-2 minutes after successful payment."
+      },
+      "device-limit": {
+        "question": "How many devices can I use simultaneously?",
+        "answer": "All plans include multi-device support. You can use up to 3 devices simultaneously with any subscription."
+      },
+      "buffering-issues": {
+        "question": "What should I do if I experience buffering?",
+        "answer": "Check your internet connection, try a different server location in the app, or contact our 24/7 support team for assistance."
+      },
+      "legal-content": {
+        "question": "Is the service legal and licensed?",
+        "answer": "Yes, all content is streamed from authorized sources through licensed providers. We do not host or distribute copyrighted content."
+      },
+      "payment-methods": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards, PayPal, and cryptocurrency payments for your convenience."
+      },
+      "refund-policy": {
+        "question": "What is your refund policy?",
+        "answer": "We do not offer refunds or exchanges. All sales are final. We are committed to providing high-quality service and support."
+      },
+      "technical-support": {
+        "question": "Do you provide technical support?",
+        "answer": "Yes, we provide 24/7 technical support to help you with installation, setup, and any issues you may encounter."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go Home",
+    "contactSupport": "Contact Support",
+    "needHelp": "Need help? Contact us at"
+  },
+  "plans": {
+    "title": "Choose Your Plan",
+    "subtitle": "All plans include 4K quality, multi-device support, and instant activation",
+    "guarantee": "Service Quality Guarantee",
+    "guaranteeDescription": "We're committed to providing the best IPTV experience with reliable service and premium features.",
+    "benefits": {
+      "instant": "Instant Activation",
+      "instantDesc": "Get started immediately after subscription",
+      "support": "24/7 Support",
+      "supportDesc": "Round-the-clock customer assistance",
+      "quality": "Premium Quality",
+      "qualityDesc": "4K and HD streaming with no buffering"
+    }
+  }
+}

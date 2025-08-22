@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://maxprotv.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages for SEO
+Allow: /
+Allow: /ar/
+Allow: /plans
+Allow: /ar/plans
+Allow: /install
+Allow: /ar/install
+Allow: /blog
+Allow: /ar/blog
+Allow: /contact
+Allow: /ar/contact
+
+# Crawl-delay for better server performance
+Crawl-delay: 1

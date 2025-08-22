@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables for Design System */
+:root {
+  /* Colors */
+  --background: 13 13 13;
+  --background-rgb: 13, 13, 13;
+  --background-2: 23 23 23;
+  --background-3: 33 33 33;
+  --foreground: 255 255 255;
+  --foreground-secondary: 226 232 240;
+  --border: #232C3A;
+  --border-light: #2A3441;
+  
+  /* Text */
+  --text: #FFFFFF;
+  --text-secondary: #E2E8F0;
+  --muted: #94A3B8;
+  --muted-2: #64748B;
+  
+  /* Brand */
+  --accent: #FF5722;
+  --accent-2: #E53935;
+  --accent-hover: #FF6F43;
+  --secondary: #2D9CDB;
+  --secondary-hover: #4DA6E0;
+  
+  /* Gradients */
+  --accent-grad: linear-gradient(135deg, #FF5722, #E53935);
+  --hero-grad: linear-gradient(135deg, #0B0F17 0%, #121826 100%);
+  
+  /* Semantic */
+  --whatsapp: #25D366;
+  --success: #3EA76A;
+  --warning: #F59E0B;
+  --error: #EF4444;
+  
+  /* Layout */
+  --card-radius: 18px;
+  --btn-radius: 14px;
+  --input-radius: 12px;
+  --shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.3);
+  
+  /* Animations */
+  --transition: all 0.2s ease-in-out;
+  --transition-slow: all 0.3s ease-in-out;
+}
+
+/* RTL Variables */
+[dir="rtl"] {
+  --text-align: right;
+  --flex-direction: row-reverse;
+  --margin-start: margin-right;
+  --margin-end: margin-left;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: rgb(var(--background));
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Arabic Font */
+[dir="rtl"] {
+  font-family: 'Tajawal', 'Inter', sans-serif !important;
+}
+
+[lang="ar"] {
+  font-family: 'Tajawal', 'Inter', sans-serif !important;
+}
+
+.font-arabic {
+  font-family: 'Tajawal', 'Inter', sans-serif !important;
+}
+
+[dir="rtl"] *,
+[lang="ar"] *,
+.font-arabic * {
+  font-family: 'Tajawal', 'Inter', sans-serif !important;
+}
+
+/* Enhanced text contrast */
+.text-foreground {
+  color: rgb(var(--foreground)) !important;
+}
+
+.text-foreground-secondary {
+  color: rgb(var(--foreground-secondary)) !important;
+}
+
+.text-muted {
+  color: var(--muted) !important;
+}
+
+/* Focus Styles */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Selection Styles */
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-2);
+}
+
+/* Utility Classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-spacing {
+    @apply py-16 lg:py-24;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent to-accent-2 bg-clip-text text-transparent;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-md bg-background/80 border border-border;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+}
+
+/* Component Base Styles */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50;
+    border-radius: var(--btn-radius);
+  }
+  
+  .btn-primary {
+    @apply btn bg-accent text-white hover:bg-accent-hover active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary text-white hover:bg-secondary-hover active:scale-95;
+  }
+  
+  .btn-outline {
+    @apply btn border border-border bg-transparent text-foreground hover:bg-background-2 hover:border-border-light;
+  }
+  
+  .btn-ghost {
+    @apply btn bg-transparent text-foreground hover:bg-background-2;
+  }
+  
+  .card {
+    @apply bg-background-2 border border-border p-6 transition-all duration-200 hover:border-border-light;
+    border-radius: var(--card-radius);
+    box-shadow: var(--shadow);
+  }
+  
+  .input {
+    @apply w-full px-4 py-3 bg-background-2 border border-border text-foreground placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-colors;
+    border-radius: var(--input-radius);
+  }
+  
+  .navbar-blur {
+    @apply backdrop-blur-md border-b border-border;
+    background-color: rgba(13, 13, 13, 0.8);
+  }
+}
